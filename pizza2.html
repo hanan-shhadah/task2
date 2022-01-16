@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pizza Shop</title>
+
+	<style type="text/css">
+		body { 
+			background-image: url(p8.jpeg) ;
+			background-repeat: no-repeat;
+			background-size:cover;
+
+		}
+		.head{
+			background-color: #ffe6b3;
+			height: 60px;
+			margin: 0px;
+			padding-top: 0px;
+			}
+		.head li{
+            display: inline-block;
+           margin-top: 15px;
+            font-size:25px ;
+			 }
+       .head a {
+       	text-decoration: none;
+       	color:#664600;
+       	padding:15px ;
+       	margin:15px ;
+       }
+       #logo {
+       	position: absolute;
+       	top:8px ;
+       	left:8px ;
+       }
+       .tx{
+       	color:gold;
+       	font-weight: bold;
+
+       }
+       iframe{
+       	margin: center;
+       	margin-left: 475px;
+       	margin-right: 500px;
+       }
+       .txt{
+       	color: gold;
+       	font-size: 15px;
+       	font-style: oblique;
+       	border-collapse: collapse;
+       }
+       .txt button{
+       	font-size: 18px;
+       	font-weight: bold;
+       	border-radius: 7px;
+       	background-color: beige;
+       	border-color: rosybrown;
+       }
+       .sr,tr,td,th{
+
+       	border: 3px brown solid ;
+       	border-collapse: collapse;
+       	text-align: center;
+        font-weight:bold ;
+        padding:9px ;
+        font-size: 15px;
+       
+        
+       }
+       #pr{
+       	border-collapse: collapse;
+       }
+       span{
+       	display: inline-block;
+        padding-left: 600px; 
+        color: gold;      }
+
+       .fo {
+       	 margin-top: 20px ;
+       	 color: beige;
+       }
+        textarea {
+        	color: blueviolet;
+        	font-size: 12px;
+        	font-weight: bold;
+        }
+	</style>
+</head>
+<body>
+	<header id="h">
+		<ul class="head" align="right" >
+		 <li><a href="#">home</a></li>
+		 <li><a href="#pro">products</a></li>
+		 <li><a href="#ser">services</a></li>
+		 <li><a href="#co">contact us</a></li>
+		</ul>
+		<img src="logo.jpg" width="60px" height="60px" id="logo" >
+	</header >
+
+	<h2><p align="center" class="tx">Welcome to pizza shop</p></h2>
+	<p align="center" class="tx"><i>Buy for 50JD and get free gift</i></p><br>
+    <p align="center"  class="tx"> <b>Best pizza</b></p>
+
+   <iframe width="560px" height="315px" src="https://www.youtube.com/embed/B9KVFppq3CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w_E_i61LwOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+   <!-- this is html comment -->
+   <h3 id="pro" align="center" class="tx"> Pizza types</h3>
+
+   <table align="center" id="pr">
+   	<tr>
+   		<td><a href="#"><img src="cheese.jpg" width="250px" height="250px" alt="Image not found"></a></td>
+   		<td><a href="#"><img src="garlicchicken.jpg" width="250px" height="250px" alt="Image not found"></a></td>
+   		<td><a href="#"><img src="MargheritaPizza.jpg" width="250px"  height="250px" alt="Image not found"></a></td>
+   	</tr>
+   	<tr class="txt">
+   		<td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Cheese &nbsp 15JD</td>
+   		<td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Chicken &nbsp 17JD</td>
+        <td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Margherita &nbsp 12JD</td>
+
+   	</tr>
+   		<tr>
+   		<td><a href="#"><img src="pepperoni.jpg" width="250px" height="250px" alt="Image not found"></a></td>
+   		<td><a href="#"><img src="supremepizza.jpg"width="250px" height="250px" alt="Image not found"></a></td>
+   		<td><a href="#"><img src="VeggiePizza.jpg"width="250px" height="250px" alt="Image not found"></a></td>
+   	</tr>
+   	<tr class="txt">
+   		<td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Pepperoni &nbsp 14JD</td>
+   		<td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Supreme &nbsp 15.50JD</td>
+        <td align="center"><button style="color: rosybrown;">Add to order</button>&nbsp &nbsp Veggie &nbsp 11JD</td>
+
+   	</tr>
+   	
+   </table>
+  
+   <h2 class="tx" align="center" id="ser" > &nbsp &nbsp Services</h2>
+   <table class="sr" align="center" style="color: beige; border-color: beige;">
+   	<tr>
+   		<td> &nbsp &nbsp Customer Service </td> 
+   		<td>price</td>
+   	</tr>
+   	<tr>
+   		<td>delivery</td>
+   		<td>2.00JD</td>
+   	</tr>
+   	<tr>
+   		<td>take away</td>
+   		<td>00.50JD</td>
+   	</tr>
+   </table> <br> <br>
+
+  <h2 id="co" class="tx" align="center">Contact us </h2>
+   
+   
+   <footer >
+   	<form align="center" class="fo" >
+   	<label for="name">Name :</label><br>
+   	<input type="text" name="name" id="name"><br>
+   	<label for="birthday">Birthday :</label><br>
+   	<input type="date" name="birthday" id="birthday"><br>
+   	<!-- this is html comment -->
+   </form>
+   <br>
+  
+   <div align="center"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.461264746654!2d35.8388585848375!3d32.002616781212744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1f07c810605%3A0xe326781121694ac4!2z2YXZgtixINmH2YrYptipINi02KjYp9ioINmD2YTZhtinINin2YTYo9ix2K_ZhiAtINiu2YTYr9in!5e0!3m2!1sar!2sjo!4v1642362707658!5m2!1sar!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe></div><br>
+
+
+
+
+    <span >For more information :<br> 
+    	call us 077958623412 <br>
+    	 <a href="mailto:info@galaxy.org" align ="center">send an email </a><br></span> <br> <br>
+   
+     
+        <textarea placeholder="write your notes" rows="20" cols="200" ></textarea><br><br>
+         <a href="https://www.facebook.com/" target="_blank"><img src="fb_icon_325x325.png" alt="image not found" align="right" width="80px" height="80px" ></a>
+       <a href="#h"></a><br>
+   </footer>
+      
+
+</body>
+</html>
